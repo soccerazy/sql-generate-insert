@@ -16,12 +16,13 @@ Generates INSERT statement(s) for data in a table.
 
 ## Usage ##
 
-### Quick example ###
+### Where example ###
 Select rows in stories table where category = 251
 ```
 exec GenerateInsert @ObjectName = 'dbo.Stories', @SearchCondition = 'category = 251'
 ```
 
+### Quick example ###
 ```
 USE [AdventureWorks];
 GO
